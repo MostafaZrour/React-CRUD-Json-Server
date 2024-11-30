@@ -1,0 +1,154 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Laptop Pro 15",
+      "brand": "FitWear",
+      "category": "Sportswear",
+      "price": 1200.99,
+      "description": "High-performance laptop with a 15-inch display.",
+      "image": "image.png",
+      "createdAt": "2024-11-28T10:00:00Z"
+    },
+    {
+      "id": "2",
+      "name": "Running Shoes",
+      "brand": "FitWear",
+      "category": "Sportswear",
+      "price": 85.5,
+      "description": "Lightweight and durable running shoes for all terrains.",
+      "image": "image.png",
+      "createdAt": "2024-11-25T08:30:00Z"
+    },
+    {
+      "id": "3",
+      "name": "Smartphone X",
+      "brand": "MobileCorp",
+      "category": "Electronics",
+      "price": 799.99,
+      "description": "Sleek smartphone with cutting-edge technology.",
+      "image": "image.png",
+      "createdAt": "2024-11-20T15:00:00Z"
+    },
+    {
+      "id": "4",
+      "name": "Gaming Headset",
+      "brand": "SoundWave",
+      "category": "Accessories",
+      "price": 59.99,
+      "description": "Immersive gaming headset with noise cancellation.",
+      "image": "image.png",
+      "createdAt": "2024-11-15T13:15:00Z"
+    },
+    {
+      "id": "5",
+      "name": "Wireless Mouse",
+      "brand": "TechBrand",
+      "category": "Accessories",
+      "price": 25.49,
+      "description": "Ergonomic wireless mouse with a long battery life.",
+      "image": "image.png",
+      "createdAt": "2024-11-10T09:45:00Z"
+    },
+    {
+      "id": "6",
+      "name": "Smartwatch Fit",
+      "brand": "MobileCorp",
+      "category": "Wearables",
+      "price": 199.99,
+      "description": "Track your fitness and stay connected with this smartwatch.",
+      "image": "image.png",
+      "createdAt": "2024-11-05T18:00:00Z"
+    },
+    {
+      "id": "7",
+      "name": "Leather Jacket",
+      "brand": "StyleWear",
+      "category": "Apparel",
+      "price": 150.75,
+      "description": "Stylish leather jacket for all occasions.",
+      "image": "image.png",
+      "createdAt": "2024-11-01T20:00:00Z"
+    },
+    {
+      "id": "8",
+      "name": "Bluetooth Speaker",
+      "brand": "SoundWave",
+      "category": "Electronics",
+      "price": 89.99,
+      "description": "Portable speaker with high-quality sound.",
+      "image": "image.png",
+      "createdAt": "2024-10-28T11:30:00Z"
+    },
+    {
+      "id": "9",
+      "name": "Yoga Mat",
+      "brand": "FitWear",
+      "category": "Sports",
+      "price": 29.99,
+      "description": "Non-slip yoga mat for your workouts.",
+      "image": "image.png",
+      "createdAt": "2024-10-25T14:00:00Z"
+    },
+    {
+      "id": "10",
+      "name": "Electric Kettle",
+      "brand": "HomeEssentials",
+      "category": "Appliances",
+      "price": 39.99,
+      "description": "Fast-boiling electric kettle with auto shut-off.",
+      "image": "image.png",
+      "createdAt": "2024-10-20T07:15:00Z"
+    },
+    {
+      "id": "11",
+      "name": "4K TV",
+      "brand": "VisionTech",
+      "category": "Electronics",
+      "price": 999.99,
+      "description": "Ultra HD 4K television for an immersive experience.",
+      "image": "image.png",
+      "createdAt": "2024-10-15T12:00:00Z"
+    },
+    {
+      "id": "12",
+      "name": "Coffee Maker",
+      "brand": "HomeEssentials",
+      "category": "Appliances",
+      "price": 49.99,
+      "description": "Compact coffee maker for perfect brews.",
+      "image": "image.png",
+      "createdAt": "2024-10-10T06:30:00Z"
+    },
+    {
+      "id": "13",
+      "name": "Mountain Bike",
+      "brand": "AdventureCo",
+      "category": "Sports",
+      "price": 599.99,
+      "description": "Durable mountain bike for outdoor adventures.",
+      "image": "image.png",
+      "createdAt": "2024-10-05T16:45:00Z"
+    },
+    {
+      "id": "14",
+      "name": "Noise-Cancelling Earbuds",
+      "brand": "SoundWave",
+      "category": "Accessories",
+      "price": 129.99,
+      "description": "Compact earbuds with superior noise cancellation.",
+      "image": "image.png",
+      "createdAt": "2024-10-01T08:00:00Z"
+    },
+    {
+      "id": "16",
+      "name": "Redmi",
+      "brand": "VisionTech",
+      "category": "Appliances",
+      "price": "35",
+      "description": "Made in China",
+      "image": "image.png",
+      "createdAt": "2024-11-30T15:07:26.174Z"
+    }
+  ]
+}

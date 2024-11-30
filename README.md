@@ -1,70 +1,77 @@
-# Getting Started with Create React App
+# **React CRUD App with JSON Server**
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+---
 
-## Available Scripts
+## **Description**  
+This project is a simple CRUD (Create, Read, Update, Delete) application built with **React** and **JSON Server**. It manages a list of products where you can perform the following actions:  
+- View the list of products.  
+- Add new products.  
+- Edit existing products.  
+- Delete products.  
 
-In the project directory, you can run:
+JSON Server is used as a mock backend to store and retrieve product data.
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## **Features**  
+- Dynamic routing for creating, updating, and viewing the list of products.  
+- A responsive UI designed using **Bootstrap**.  
+- CRUD operations integrated with a JSON Server.  
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## **Getting Started**  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### **Prerequisites**  
+- Node.js (v14 or higher)  
+- npm or yarn  
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## **Installation**  
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### **1. Clone the Repository**  
+git clone <repository-url>
+cd <repository-folder>
+2. Install Dependencies
+Copier le code
+npm install
+3. Install JSON Server
+Install JSON Server globally (if not already installed):
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Copier le code
+npm install -g json-server
+Running the Project
+1. Start JSON Server
+JSON Server uses a db.json file to simulate a REST API. Ensure that db.json is located in the project root.
+Start JSON Server with the following command:
 
-### `npm run eject`
+Copier le code
+json-server --watch db.json --port 3001
+2. Start the React Development Server
+In a separate terminal, start the React application:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Copier le code
+npm start
+3. Open in the Browser
+The application will run at:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+arduino
+Copier le code
+http://localhost:3000
+JSON Server will run at:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Copier le code
+http://localhost:3001/products
+Project Structure
+/src: React application source code.
+/components: Contains all React components like forms, product lists, etc.
+/db.json: JSON Server's mock database file.
+Usage
+Add, edit, or delete products using the user interface.
+All changes are reflected in the db.json file.
+Contributing
+Contributions are welcome! Please fork the repository and submit a pull request with your changes.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+License
+This project is open-source and available under the MIT License.

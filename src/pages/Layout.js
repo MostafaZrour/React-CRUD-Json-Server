@@ -3,7 +3,7 @@ import { Outlet, Link } from "react-router-dom";
 const Layout = () => {
   return (
     <>
-      <nav className="navbar navbar-expand-sm bg-dark navbar-dark text-light">
+      <nav className="navbar navbar-expand-sm bg-dark navbar-dark text-light mb-5">
         <div className="container-fluid">
           <Link className="navbar-brand" to="/">MyApp</Link>
           <button
@@ -23,10 +23,7 @@ const Layout = () => {
                 <Link className="nav-link" to="/">Home</Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/blogs">Blogs</Link>
-              </li>
-              <li className="nav-item">
-                <Link className="nav-link" to="/contact">Contact</Link>
+                <Link className="nav-link" to="/admin/list">Admin</Link>
               </li>
             </ul>
           </div>
